@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found | HyperTalent</title>
+<meta name="description" content="Page not found.">
+<link rel="canonical" href="https://www.hypertalent.me/404">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HyperTalent">
+<meta property="og:title" content="Page not found | HyperTalent">
+<meta property="og:description" content="Page not found.">
+<meta property="og:url" content="https://www.hypertalent.me/404">
+<meta property="og:image" content="https://www.hypertalent.me/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#050c0b">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css?v=202610121717">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="bg-fx" aria-hidden="true"><div class="glow g1"></div><div class="glow g2"></div></div>
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="HyperTalent home"><img src="/assets/logo-white.png" alt="HyperTalent" width="155" height="26"></a>
+    <nav class="nav-links" aria-label="Main"><a href="/">Home</a><a href="/why-choose-us">How we work</a><a href="/blog">Blog</a><a href="/contact-us-1">Contact</a></nav>
+    <div class="nav-cta">
+      <a class="btn btn-primary btn-sm" href="https://calendly.com/nicolas-hypertalent/30min" target="_blank" rel="noopener">Book a call <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-hero" style="min-height:60vh"><div class="wrap">
+  <span class="eyebrow">404</span><h1>This page <span class="serif grad">moved on.</span></h1>
+  <p class="lead">The page you're looking for doesn't exist anymore. Try the home page or the blog.</p>
+  <div class="hero-actions" style="margin-top:32px"><a class="btn btn-primary" href="/">Go home <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="btn btn-ghost" href="/blog">Read the blog</a></div>
+</div></section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="/"><img src="/assets/logo-white.png" alt="HyperTalent" width="143" height="24"></a>
+        <p>Recruiting for venture-backed startups. Engineers, hardware builders, product and GTM talent across the US and Europe.</p>
+      </div>
+      <div><h4>Navigate</h4><a href="/">Home</a><a href="/why-choose-us">How we work</a><a href="/blog">Blog</a><a href="/contact-us-1">Contact</a></div>
+      <div><h4>Contact</h4><a href="mailto:nicolas@hypertalent.me">nicolas@hypertalent.me</a><a href="https://calendly.com/nicolas-hypertalent/30min" target="_blank" rel="noopener">Book a 30-min call</a><a href="https://www.linkedin.com/company/hypertalent-me" target="_blank" rel="noopener">LinkedIn</a></div>
+      <div><h4>Offices</h4><p>New York, USA<br>368 9th Ave, New York, NY 10001</p><p>Dubai, UAE<br>One Central, 9th Floor, Trade Centre 2</p></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 HyperTalent. All rights reserved.</span><span>Built for founders who hire fast.</span></div>
+  </div>
+</footer>
+<script>
+document.documentElement.classList.remove('no-js');
+(function(){
+  var nav=document.getElementById('nav'),btn=nav.querySelector('.menu-btn');
+  function s(){nav.classList.toggle('scrolled',window.scrollY>8)} s();addEventListener('scroll',s,{passive:true});
+  btn.addEventListener('click',function(){var o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o)});
+  nav.querySelectorAll('.nav-links a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open')})});
+  var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'}):null;
+  document.querySelectorAll('.reveal').forEach(function(el){io?io.observe(el):el.classList.add('in')});
+  document.querySelectorAll('.card').forEach(function(c){c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px')})});
+})();
+</script>
+</body>
+</html>
